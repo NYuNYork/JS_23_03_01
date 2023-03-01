@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(185, 241, 185);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 800px;
+    border: 1px solid green;
+    padding: 20px;
+    box-sizing: border-box; /*nem adja hozzá a padding szélességét
+                             a width-hoz*/
+}
+
+main h1{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container > div{
+    width: 33%;
+}
+
+#euro{
+    width: 90%;
+    padding: 3px;
+}
+
+#atvalt{
+    width: 90%;
+    background-color: green;
+    color: white;
+    padding: 4px;
+}
+
+#atvaltott{
+    margin: 0px;
+    padding-top: 3px;
+}
